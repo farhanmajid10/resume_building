@@ -1,0 +1,131 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container */
+  body {
+    background-color: #2f2f2f; /* Dark background */
+    color: #f3f3f3; /* Light text */
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 85%;
+    margin: 20px auto;
+    max-width: 1100px;
+  }
+  
+  /* Header Section */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .headshot {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #f3f3f3;
+  }
+  
+  #name {
+    font-size: 2.2em;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #contact-info {
+    font-size: 0.95em;
+    color: #ffdab9; /* Warm accent color for contact info */
+    margin-top: 5px;
+  }
+  
+  #contact-info a {
+    color: #ffdab9; /* Warm accent links */
+    text-decoration: none;
+  }
+  
+  #contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Headings */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ff7f50; /* Warm border */
+    padding-bottom: 5px;
+  }
+  
+  /* About Me */
+  .about p {
+    margin-top: 10px;
+  }
+  
+  /* Education & Skills & Projects */
+  .education ul, 
+  .skills ul,
+  .projects ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .education li,
+  .skills li,
+  .projects li {
+    margin-bottom: 10px;
+  }
+  
+  /* Employment Timeline */
+  .timeline {
+    margin-top: 15px;
+  }
+  
+  .timeline ul {
+    list-style-type: none;
+  }
+  
+  .timeline li {
+    padding: 15px;
+    border: 1px solid #ff7f50; /* Warm accent border */
+    border-left: 8px solid #ff7f50;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #3f3f3f;
+  }
+  
+  .timeline li:hover {
+    background-color: #504f4f;
+  }
+  
+  .timeline li h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #ff7f50; /* Warm accent for headings */
+  }
+  
+  .role {
+    display: block;
+    font-style: italic;
+    margin-bottom: 3px;
+    color: #ffdab9; /* Slightly lighter warm accent */
+  }
+  
+  .duration {
+    display: block;
+    font-size: 0.9em;
+    color: #cfcfcf;
+  }
+  

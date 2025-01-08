@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Farhan Majid - Online Resume</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Header Section -->
+    <header>
+      <!-- Replace "headshot.jpg" with your own image filename/path -->
+      <img src="headshot.jpg" alt="Farhan Majid Headshot" class="headshot" />
+      
+      <h1 id="name">Farhan Majid</h1>
+      <p id="contact-info">
+        210-463-2280 | <a href="mailto:farhanmajid23@utexas.edu">farhanmajid23@utexas.edu</a> | Austin, TX<br>
+        <a href="http://linkedin.com/in/FarhanMajid23" target="_blank">LinkedIn</a> | 
+        <a href="https://github.com/farhanmajid10" target="_blank">GitHub</a>
+      </p>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="about">
+      <h2>ABOUT ME</h2>
+      <p>
+        I am currently studying Electrical and Computer Engineering at UT Austin. 
+        Actively seeking opportunities to delve into software and embedded systems 
+        in a progressive engineering environment.
+      </p>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+      <h2>EDUCATION</h2>
+      <ul>
+        <li>
+          <strong>The University of Texas at Austin, Austin, TX</strong><br>
+          Bachelor of Science, Electrical and Computer Engineering<br>
+          Anticipated Graduation Date: Dec 2025 | GPA: 3.1<br>
+          Relevant Coursework: Embedded Lab, Software Design &amp; Implementation I &amp; II, 
+          Operating Systems, Computer Architecture
+        </li>
+        <li>
+          <strong>Palo Alto College, San Antonio, TX</strong><br>
+          Associate’s Degree, Engineering<br>
+          Graduation Date: May 2022 | GPA: 4.0
+        </li>
+      </ul>
+    </section>
+
+    <!-- Experience Section (Interactive Timeline) -->
+    <section class="employment">
+      <h2>EXPERIENCE</h2>
+      <div class="timeline">
+        <ul>
+          <!-- Each li has data attributes we’ll use in script.js -->
+          <li
+            data-duration="Sep 2024 - Present" 
+            data-company="The University of Texas at Austin Eco CAR EV Team" 
+            data-role="PCM Team Member" 
+            data-details="Working on propulsion, control, and modeling to enhance vehicle performance and efficiency through real-time data analysis and system optimization."
+          >
+            <h3>UT Austin Eco CAR EV Team</h3>
+            <span class="role">PCM Team Member</span>
+            <span class="duration">Sep 2024 - Present</span>
+          </li>
+
+          <li
+            data-duration="Sep 2022 - Jul 2023" 
+            data-company="Longhorn Racing Solar" 
+            data-role="Array Team Member" 
+            data-details="Assembled solar modules, executed lamination processes, and performed module testing."
+          >
+            <h3>Longhorn Racing Solar</h3>
+            <span class="role">Array Team Member</span>
+            <span class="duration">Sep 2022 - Jul 2023</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+      <h2>PROJECTS</h2>
+      <ul>
+        <li><strong>Custom Space-Invaders Game:</strong> Enhanced understanding of PCB design and embedded system integration with DAC, ADC, and LCD components.</li>
+        <li><strong>Tetris Game:</strong> Gained proficiency in object-oriented programming, game state management, and graphics rendering.</li>
+        <li><strong>CIMA-LSAMP Program:</strong> Optimized a solar panel system by incorporating a dual-axis actuator and cooling system under Professor Kazumi Stovall.</li>
+        <li><strong>RC Drift Car:</strong> Worked with three team members to build an RC drift car for the Embedded Lab final project. Designed the PCB for the controller and the car and ensured communication between both.</li>
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+      <h2>SKILLS</h2>
+      <ul>
+        <li>MATLAB, Simulink, C, C++, Java, Python, Assembly</li>
+        <li>Illustrator, Solar Module Lamination, Git, Shells &amp; Terminals, Bash Scripting</li>
+        <li>OOP, Functional Programming</li>
+        <li>Languages: English, Bangla, Hindi</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Link to external JS file (placed at the end of body for better performance) -->
+  <script src="script.js"></script>
+</body>
+</html>
