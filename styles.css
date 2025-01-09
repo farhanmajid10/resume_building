@@ -8,7 +8,7 @@
   /* Container */
   body {
     background-color: #2f2f2f; /* Dark background */
-    color: #f3f3f3; /* Light text */
+    color: #f3f3f3;           /* Light text */
     font-family: "Arial", sans-serif;
     line-height: 1.6;
   }
@@ -73,7 +73,7 @@
   }
   
   /* Education & Skills & Projects */
-  .education ul, 
+  .education ul,
   .skills ul,
   .projects ul {
     list-style-type: square;
@@ -127,5 +127,48 @@
     display: block;
     font-size: 0.9em;
     color: #cfcfcf;
+  }
+  
+  /* Certificates Section */
+  .certificates {
+    margin-bottom: 30px;
+  }
+  
+  .certificates h2 {
+    /* Matches the style of your other <h2> headings */
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ff7f50; /* same warm border */
+    padding-bottom: 5px;
+  }
+  
+  .certificate-grid {
+    display: flex;            /* horizontal layout */
+    flex-wrap: wrap;          /* wrap to next line on smaller screens */
+    gap: 20px;                /* spacing between items */
+    justify-content: center;  /* center items horizontally */
+    margin-top: 15px;
+  }
+  
+  /* Each figure can have a set width or just shrink to fit its image */
+  .certificate-grid figure {
+    text-align: center;
+    max-width: 200px;         /* optional max width */
+    margin: 0;                /* remove default figure margins */
+  }
+  
+  /* Certificate images */
+  .certificate-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ff7f50; /* warm accent border */
+    margin-bottom: 5px;
+  }
+  
+  .certificate-grid figcaption {
+    font-size: 0.9em;
+    color: #f3f3f3;
+    /* Optional: add a bit of styling or a warm accent color if you prefer */
   }
   
