@@ -10,8 +10,7 @@ timelineItems.forEach((item) => {
     const role = item.dataset.role;
     const details = item.dataset.details;
 
-    // Simple approach: Show an alert with the details
-    // You can replace this with a modal, collapsible panel, or another UI element.
+    // Show an alert with the details
     alert(
       `Company: ${company}\n` +
       `Role: ${role}\n` +
